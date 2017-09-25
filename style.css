@@ -6,9 +6,7 @@
 #nav-bar ul {
 	width: 100%;
 	margin: 0;
-	opacity: 1;
 	position: fixed;
-	top: 0;
 	background-color: gray;
 }
 
@@ -24,55 +22,86 @@
 	text-align: center;	
 	text-decoration: none;
 	padding: 10px;
+	font-family: Arial;
 }
 
 #nav-bar a:hover {
 	background-color: white;
 	color: black;
+	font-family: Arial;
+	opacity: 0.7;
 }
 
 body {
 	margin: 0;
+	font-family: arial;
 }
 
 #first {
 	background-color: black;
 	height: 680px;
+	overflow: hidden;
 }
 
-#first h2{
+#first h1{
 	color: white;
 	text-align: center;
-	font-family: Adequate;
+	font-family: Dekar;
 }
 
 #second {
 	background-color: skyblue;
 	height: 500px;
+	overflow: hidden;
+	color: white;
+}
+
+#second h1 {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#second h2 {
+	margin-left: 50px;
 }
 
 #third {
 	background-color: #5F6B61;
 	height: 500px;
+	overflow: hidden;
+	color: white;
+}
+
+#third h1 {
+	margin-top: 50px;
+	margin-left: 50px;
 }
 
 #fourth {
 	background-color: #DCF0F7;
 	height: 320px;
+	overflow: hidden;
+	color: white;
+}
+
+#fourth h1 {
+	margin-top: 50px;
+	margin-left: 50px;
 }
 
 @font-face {
-	font-family: Adequate;
-	src: url(Adequate-ExtraLight.ttf);
+	font-family: Dekar;
+	src: url(Dekar Light.otf);
 }
 
 .img-circle {
 	border-radius: 50%;
-	margin-top: 350px;
-	margin-left: 575px;
 	padding: 0px;
 	width: 200px;
 	height: 200px;
-	line-height: 1;
 }
-	
+
+.p-center {
+	padding-top: 355;
+	text-align: center;
+}
