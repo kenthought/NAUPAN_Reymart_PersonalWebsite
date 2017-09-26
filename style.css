@@ -79,7 +79,7 @@ div {
 }
 
 #second h2 {
-	margin-top: 15px;
+	margin-top: 10px;
 	font-size: 30px;
 	color: #58798c;
 }
@@ -92,6 +92,15 @@ div {
 	padding-right: 70px;
 	color: #58798c;
 	width: 220px;
+}
+
+#second hr {
+    height: 2px;
+    background: #3295be;
+    font-size: 0;
+    border: none;;
+	border-color: #3295be;
+	margin-right: 95px;
 }
 
 #second li p {
