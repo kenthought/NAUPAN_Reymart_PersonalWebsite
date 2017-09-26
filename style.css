@@ -68,7 +68,6 @@ div {
 #first h1 {
 	color: white;
 	text-align: center;
-	font-family: Dekar;
 }
 
 #second {
@@ -121,11 +120,6 @@ div {
 #fourth h1 {
 	margin: 0;
 	font-size: 45px;
-}
-
-@font-face {
-	font-family: Dekar;
-	src: url(Dekar Light.otf);
 }
 
 .img-circle {
