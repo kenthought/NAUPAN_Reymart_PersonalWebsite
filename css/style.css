@@ -54,7 +54,7 @@ div {
 }
 
 #first {
-	background-image: url("supa.png");
+	background-image: url("../images/supa.png");
 	background-size: 1350px 800px;
 	height: 680px;
 	width: 100%;
