@@ -4,7 +4,6 @@
 	position: fixed;
 	background-color: #1C263C;
 	opacity: 0.8;
-	height: 50px;
 }
 
 #nav-bar li {
@@ -98,7 +97,7 @@ div {
 	color: #58798c;
 }
 
-#second	 li {
+#second	.list{
 	font-size: 18px;
 	display: inline;
 	float: left;
