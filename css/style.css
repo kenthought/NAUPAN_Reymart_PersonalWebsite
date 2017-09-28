@@ -148,8 +148,9 @@ div {
 	float: left;
 	padding: 20px;
 	color: white;
-	width: 90%;
+	width: 200px;
 	margin-bottom: 20px;
+	margin-right: 20px;
 }
 
 #third	.box hr{
