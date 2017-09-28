@@ -79,10 +79,10 @@ div {
 }
 
 #second {
-	background-color: white;
-	height: 500px;
+	background-color: white;	
 	color: white;
-	padding: 100px 100px
+	overflow: hidden;
+	padding: 100px 100px;
 }
 
 #second h1 {
@@ -111,8 +111,6 @@ div {
     height: 2px;
     background: #3295be;
     font-size: 0;
-    border: none;
-	border-color: #3295be;
 	margin-right: 95px;
 }
 
@@ -123,7 +121,6 @@ div {
 
 #third {
 	background-color: #5F6B61;
-	height: 500px;
 	overflow: hidden;
 	color: white;
 	padding: 100px 100px;
@@ -133,6 +130,35 @@ div {
 	margin: 0;
 	font-size: 45px;
 }
+
+#third h2 {
+	margin-top: 0;
+}
+
+#third hr {
+    height: 2px;
+    background: white;
+    font-size: 0;
+	margin-right: 95px;
+}
+
+#third	.box{
+	border: 1px solid white;
+	border-radius: 10px;
+	float: left;
+	padding: 20px;
+	color: white;
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+#third	.box hr{
+    height: 2px;
+    background: white;
+    font-size: 0;
+	margin-right: 10px;
+}
+
 
 #fourth {
 	background-color: rgb(155, 255, 155);
