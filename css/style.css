@@ -52,15 +52,15 @@ div {
 	overflow: auto;
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.title, .content {
 		width: 100%:
 	}
 }
 
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 	.title {
-		width: 40%;
+		width: 30%;
 	}
 }
 
@@ -163,6 +163,7 @@ div {
 	width: 200px;
 	margin-bottom: 20px;
 	margin-right: 20px;
+	text-align: center;
 }
 
 #third	.box hr{
