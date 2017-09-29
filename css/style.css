@@ -52,6 +52,18 @@ div {
 	overflow: auto;
 }
 
+@media only screen and (max-width: 767px) {
+	.title, .content {
+		width: 100%:
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.title {
+		width: 40%;
+	}
+}
+
 #first {
 	background-image: url("../images/supa.png");
 	background-size: 1350px 800px;
@@ -81,7 +93,7 @@ div {
 #second {
 	background-color: white;	
 	color: white;
-	overflow: hidden;
+	overflow: auto;
 	padding: 100px 100px;
 }
 
