@@ -33,8 +33,6 @@ body {
 	margin: 0;
 	width: 100%;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
-	min-height: 100%;
 }
 
 div {
@@ -75,6 +73,7 @@ div {
 #first {
 	background-image: url("../images/supa.png");
 	background-size: 1350px 800px;
+	background-attachment: fixed;
 	height: 680px;
 	width: 100%;
 	overflow: hidden;
@@ -160,7 +159,7 @@ div {
 	float: left;
 	padding: 20px;
 	color: white;
-	width: 200px;
+	width: 35%;
 	margin-bottom: 20px;
 	margin-right: 20px;
 	text-align: center;
@@ -195,7 +194,27 @@ div {
 	width: 50px;
 	float: left;
 }
-	
+
+#fifth {
+	background-color: #3295be;
+	overflow: hidden;
+	color: white;
+	padding: 100px 100px;
+	background: linear-gradient(to bottom, 
+	rgba(34, 125, 170, 1) 0%,
+	rgba(81, 172, 205, 1) 100%);
+}
+
+#fifth hr {
+    height: 2px;
+    background: white;
+    font-size: 0;
+	margin-top: 8px;
+	border: none;
+	width: 50px;
+	float: left;
+}
+
 .place {
 	padding-top: 300px;
 	padding-left: 150px;
