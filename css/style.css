@@ -124,9 +124,10 @@ div {
     height: 2px;
     background: #3295be;
     font-size: 0;
-	margin-right: 127px;
 	margin-top: 8px;
 	border: none;
+	width: 50px;
+	float: left;
 }
 
 #third {
@@ -147,9 +148,10 @@ div {
     height: 2px;
     background: white;
     font-size: 0;
-	margin-right: 90px;
 	margin-top: 8px;
 	border: none;
+	width: 50px;
+	float: left;
 }
 
 #third	.box {
@@ -174,6 +176,7 @@ div {
     background: #95c5db;
     font-size: 0;
 	margin-right: 10px;
+	width: 100%;
 }
 
 #fourth {
@@ -181,6 +184,16 @@ div {
 	overflow: hidden;
 	color: #3295be;
 	padding: 100px 100px;
+}
+
+#fourth hr{
+    height: 2px;
+    background: #3295be;
+    font-size: 0;
+	margin-top: 8px;
+	border: none;
+	width: 50px;
+	float: left;
 }
 	
 .place {
