@@ -58,15 +58,24 @@ div {
 
 @media only screen and (max-width: 1200px) {
 	.title {
-		width: 40%:
+		width: 40%;
 	}
 	
 	.content {
 		width: 60%;
 	}
+	
+	#third .box img {
+		max-width: 40px;
+		max-height: 40px;
+	}
+	
+	#third .box {
+		max-height: 200px;
+	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 767px) {
 	.title, .content {
 		width: 100%;
 	}
@@ -75,7 +84,8 @@ div {
 #first {
 	background-image: url("../images/supa.png");
 	background-size: 1350px 800px;
-	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
 	height: 680px;
 	width: 100%;
 	overflow: hidden;
@@ -104,6 +114,7 @@ div {
 
 #second h1 {
 	color: #3295be;
+	margin: 0px;
 }
 
 #second h2 {
@@ -111,6 +122,7 @@ div {
 	color: #58798c;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	margin: 0;
 }
 
 #second p {
@@ -162,7 +174,7 @@ div {
 	padding: 20px;
 	color: white;
 	width: 35%;
-	height: 20%;
+	height: 150px;
 	margin-bottom: 20px;
 	margin-right: 20px;
 	text-align: center;
