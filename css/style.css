@@ -56,31 +56,6 @@ div {
 	width: 80%;
 }
 
-@media only screen and (max-width: 1200px) {
-	.title {
-		width: 40%;
-	}
-	
-	.content {
-		width: 60%;
-	}
-	
-	#third .box img {
-		max-width: 40px;
-		max-height: 40px;
-	}
-	
-	#third .box {
-		max-height: 200px;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.title, .content {
-		width: 100%;
-	}
-}
-
 #first {
 	background-image: url("../images/supa.png");
 	background-size: 1350px 800px;
@@ -187,6 +162,9 @@ div {
 #third .box h2 {
 	color: white;
 	font-size: 22px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 #third	.box hr{
@@ -205,7 +183,7 @@ div {
 	padding: 100px 100px;
 }
 
-#fourth hr{
+#fourth hr {
     height: 2px;
     background: #3295be;
     font-size: 0;
@@ -213,6 +191,28 @@ div {
 	border: none;
 	width: 50px;
 	float: left;
+}
+
+#fourth  .image {
+	width: 50%;
+	float: left;
+}
+
+#fourth  .image img {
+	width: 90%;
+	height: 250px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 1px solid #eee;
+}
+
+#fourth .image h2 {
+	color: #2473a0;
+	font-size: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0;
 }
 
 #fifth {
@@ -241,4 +241,34 @@ div {
 	padding-bottom: 0;
 	font-size: 50p;
 	font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+	.title {
+		width: 40%;
+	}
+	
+	.content {
+		width: 60%;
+	}
+	
+	#third .box img {
+		max-width: 40px;
+		max-height: 40px;
+	}
+	
+	#third .box {
+		max-height: 200px;
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.title, .content {
+		width: 100%;
+	}
+	
+	#second, #third, #fourth, #fifth {
+		padding: 40px 40px;
+	}
 }
