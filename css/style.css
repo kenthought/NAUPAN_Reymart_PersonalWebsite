@@ -223,26 +223,39 @@ div {
 	color: #aaa;
 	text-transform: uppercase;
 	margin-top: 10px;
+	margin-bottom: 60px;
 }
 
 #fifth {
-	background-color: #3295be;
+	background-color: white;
 	overflow: hidden;
-	color: white;
+	color: #3295be;
 	padding: 100px 100px;
-	background: linear-gradient(to bottom, 
-	rgba(34, 125, 170, 1) 0%,
-	rgba(81, 172, 205, 1) 100%);
 }
 
 #fifth hr {
     height: 2px;
-    background: white;
+    background: #3295be;
     font-size: 0;
 	margin-top: 8px;
 	border: none;
 	width: 50px;
 	float: left;
+}
+
+#fifth h2{
+	color: #58798c;
+	margin: 0px;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 5px;		
+}
+
+.small {
+	font-size: 14px;
+	color: #aac7d9;
+	margin-bottom: 10px;
 }
 
 .place {
