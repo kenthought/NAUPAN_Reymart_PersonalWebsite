@@ -4,29 +4,25 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
-	$(document).ready(function(){
-		// Add smooth scrolling to all links
-		$("a").on('click', function(event) {
-		// Make sure this.hash has a value before overriding default behavior
-			if (this.hash !== "") {
-				// Prevent default anchor click behavior
-				event.preventDefault();
-				// Store hash
-				var hash = this.hash;
-				// Using jQuery's animate() method to add smooth page scroll
-				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-				$('html, body').animate({
-					scrollTop: $(hash).offset().top
+$(document).ready(function(){
+	// Add smooth scrolling to all links
+	$("a").on('click', function(event) {
+	// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+			// Prevent default anchor click behavior
+			event.preventDefault();
+			// Store hash
+			var hash = this.hash;
+			// Using jQuery's animate() method to add smooth page scroll
+			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
 				}, 800, function(){
 					// Add hash (#) to URL when done scrolling (default click behavior)
-					window.location.hash = hash;
+						window.location.hash = hash;
 					});
-			}
-		});
+		}
 	});
-	
-	$(function(){  // $(document).ready shorthand
-  $('.monster').fadeIn('slow');
 });
 </script>
 	
@@ -41,6 +37,7 @@
 				<li><a href = "#second">About</a></li>
 				<li><a href = "#third">Skillset</a></li>
 				<li><a href = "#fourth">Works</a></li>
+				<li><a href = "#fifth">Contact</a></li>
 			</ul>
 		</div>
 
@@ -81,13 +78,13 @@
 			<div class = "content">
 				<div class = "box">
 					<h2>HTML</h2>
-					<img src = "./images/html.png" style = "width: 60; height: 60;">
+					<img src = "./images/html.png" style = "width: 50; height: 50;">
 					<hr>
 				</div>
 				
 				<div class = "box">
 					<h2>CSS</h2>
-					<img src = "./images/css.png" style = "width: 60; height: 60;">
+					<img src = "./images/css.png" style = "width: 50; height: 50;">
 					<hr>
 				</div>
 				
@@ -128,13 +125,14 @@
 			<div class = "content">
 				<div class = "image">
 					<img src = "./images/works1.png">
-					
 					<h2>B&N Messenger</h2>
+					<div class = "tag">Java</div>
 				</div>
 				
 				<div class = "image">
 					<img src = "./images/works2.jpg">
 					<h2>Ad</h2>
+					<div class = "tag">Photoshop</div>
 				</div>
 			</div>
 		</div>

@@ -209,10 +209,20 @@ div {
 #fourth .image h2 {
 	color: #2473a0;
 	font-size: 15px;
-	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin: 0;
+}
+
+#fourth .tag {
+	border: 1px solid #ddd;
+	display: inline-block;
+	border-radius: 6px;
+	padding: 8px 10px;
+	font-size: 12px;
+	color: #aaa;
+	text-transform: uppercase;
+	margin-top: 10px;
 }
 
 #fifth {
