@@ -243,13 +243,17 @@ div {
 	float: left;
 }
 
-#fifth h2{
+#fifth h2 {
 	color: #58798c;
 	margin: 0px;
 	font-size: 22px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 5px;		
+}
+
+#fifth a {
+	text-decoration: none;
 }
 
 #footer {
