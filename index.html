@@ -25,15 +25,41 @@ $(document).ready(function(){
 	});
 });
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = $('.myImg');
+		var modalImg = $("#img01");
+		var captionText = document.getElementById("caption");
+		$('.myImg').click(function(){
+			modal.style.display = "block";
+			var newSrc = this.src;
+			modalImg.attr('src', newSrc);
+			captionText.innerHTML = this.alt;
+		});
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+		</script>
 	
 	<link rel = "stylesheet" href = "./css/style.css">
-	<link rel = "https://fonts.googleapis.com/css?family=Raleway:500,300,700,800" rel = "stylesheet" type = "text/css">
 	
 	<title>Personal Website</title>
 </head>
 <body>
 		<div id = "nav-bar">
 			<ul>
+				<li style = "margin-left: 30px; margin-right: 60px; text-transform: uppercase; padding: 15px 20px; font-weight: 100; letter-spacing: 1px;">
+				Reymart<strong>Naupan</strong></li>
 				<li><a href = "#first">Home</a></li>
 				<li><a href = "#second">About</a></li>
 				<li><a href = "#third">Skillset</a></li>
@@ -123,28 +149,41 @@ $(document).ready(function(){
 			
 			<div class = "content">
 				<div class = "image">
-					<img src = "./images/works1.png" alt = "B&N Messenger">
+					<img class = "myImg" src = "./images/works1.png" alt = "B&N Messenger">
 					<h2>B&N Messenger</h2>
 					<div class = "tag">Java</div>
 				</div>
 				
 				<div class = "image">
-					<img src = "./images/works2.jpg">
+					<img class = "myImg" src = "./images/works2.jpg" alt = "Ad">
 					<h2>Ad</h2>
 					<div class = "tag">Photoshop</div>
 				</div>
 				
 				<div class = "image">
-					<img src = "./images/works3.png">
+					<img class = "myImg" src = "./images/works3.png" alt = "Personal Website">
 					<h2>Personal Website</h2>
 					<div class = "tag">HTML</div>
 					<div class = "tag">CSS</div>
 				</div>
 				
 				<div class = "image">
-					<img src = "./images/works4.jpg">
+					<img class = "myImg" src = "./images/works4.jpg" alt = "Film Poster">
 					<h2>Film Poster</h2>
 					<div class = "tag">Photoshop</div>
+				</div>
+				
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+
+				<!-- The Close Button -->
+				<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+				<!-- Modal Content (The Image) -->
+				<img class="modal-content" id="img01">
+
+				<!-- Modal Caption (Image Text) -->
+				<div id="caption"></div>
 				</div>
 			</div>
 		</div>
@@ -176,4 +215,4 @@ $(document).ready(function(){
 			<p>Reymart<strong>Naupan</strong></p>
 		</div>
 </body>
-<html>
+</html>
