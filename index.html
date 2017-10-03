@@ -27,38 +27,16 @@ $(document).ready(function(){
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script>
-		// Get the modal
-		var modal = document.getElementById('myModal');
-
-		// Get the image and insert it inside the modal - use its "alt" text as a caption
-		var img = $('.myImg');
-		var modalImg = $("#img01");
-		var captionText = document.getElementById("caption");
-		$('.myImg').click(function(){
-			modal.style.display = "block";
-			var newSrc = this.src;
-			modalImg.attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-		});
-
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-			modal.style.display = "none";
-		}
-		</script>
 	
 	<link rel = "stylesheet" href = "./css/style.css">
 	
 	<title>Personal Website</title>
 </head>
 <body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<div id = "nav-bar">
 			<ul>
-				<li style = "margin-left: 30px; margin-right: 60px; text-transform: uppercase; padding: 15px 20px; font-weight: 100; letter-spacing: 1px;">
+				<li style = "margin-left: 30px; margin-right: 60px; text-transform: uppercase; padding: 15px 20px; font-weight: 100; letter-spacing: 1px; border-right: 1px solid">
 				Reymart<strong>Naupan</strong></li>
 				<li><a href = "#first">Home</a></li>
 				<li><a href = "#second">About</a></li>
@@ -214,5 +192,28 @@ $(document).ready(function(){
 		<div id = "footer">
 			<p>Reymart<strong>Naupan</strong></p>
 		</div>
+		
+		<script>
+		// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = $('.myImg');
+		var modalImg = $("#img01");
+		var captionText = document.getElementById("caption");
+		$('.myImg').click(function(){
+			modal.style.display = "block";
+			var newSrc = this.src;
+			modalImg.attr('src', newSrc);
+			captionText.innerHTML = this.alt;
+		});
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+		</script>
 </body>
 </html>
