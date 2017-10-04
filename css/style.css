@@ -95,13 +95,6 @@ div {
 	text-transform: uppercase;
 }
 
-#first p {
-	font-size: 20px;
-	color: #deeef5;
-	letter-spacing: 1px;
-	margin-left: 90px;
-}
-
 #first hr {
 	display: block;
     font-size: 0;
