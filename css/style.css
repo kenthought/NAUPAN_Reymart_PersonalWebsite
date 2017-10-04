@@ -14,7 +14,7 @@
 
 #nav-bar li a {
 	display: block;
-	color: white;	
+	color: white;
 	text-align: center;	
 	text-decoration: none;
 	padding: 15px 20px;
@@ -22,8 +22,9 @@
 
 #nav-bar a:hover {
 	background-color: white;
-	color: black;
-	font-family: Arial;
+	color: #58798c;
+	font-weight: bold;
+	letter-spacing: 1px;
 	opacity: 1;
 	text-transform: uppercase;
 }
