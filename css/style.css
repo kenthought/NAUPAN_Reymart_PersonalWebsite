@@ -4,6 +4,7 @@
 	position: fixed;
 	background-color: #3295be;
 	color: white;
+	z-index: 1;
 }
 
 #nav-bar li {
@@ -33,6 +34,7 @@ body {
 	margin: 0;
 	width: 100%;
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #3295be;
 }
 
 div {
@@ -281,7 +283,9 @@ div {
 	padding: 0px 60px;
 	border-top: 1px solid #eee;
 	color: #aaa;
+	height: 40px;
 	text-transform: uppercase;
+	background-color: white
 }
 
 .small {
@@ -289,31 +293,7 @@ div {
 	color: #aac7d9;
 	margin-bottom: 10px;
 	text-transform: uppercase;
-}
-
-@media only screen and (max-width: 1200px) {
-	.title {
-		width: 40%;
-	}
-	
-	.content {
-		width: 60%;
-	}
-	
-	#third .box img {
-		max-width: 40px;
-		max-height: 40px;
-	}
-	
-	#third .box {
-		max-height: 200px;
-		width: 150px;
-	}
-	
-	#fourth .image {
-		width: 100%;
-	}
-}
+}	
 
 .myImg {
     border-radius: 5px;
@@ -393,6 +373,30 @@ div {
     .modal-content {
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 1200px) {
+	.title {
+		width: 40%;
+	}
+	
+	.content {
+		width: 60%;
+	}
+	
+	#third .box img {
+		max-width: 40px;
+		max-height: 40px;
+	}
+	
+	#third .box {
+		max-height: 200px;
+		width: 150px;
+	}
+	
+	#fourth .image {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 767px) {
