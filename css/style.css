@@ -93,6 +93,14 @@ div {
 	text-transform: uppercase;
 }
 
+#first hr {
+	display: block;
+    font-size: 0;
+	border: 2px solid #fff;
+	width: 70px;
+	margin: 10px auto -10px 0;
+}
+
 #second {
 	background-color: white;	
 	color: white;
