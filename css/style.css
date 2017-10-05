@@ -59,13 +59,10 @@ div {
 }
 
 #first {
-	background-image: url("../images/supa.png");
-	background-size: 1350px 800px;
+	background-image: url("../images/background.png");
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background: linear-gradient(to bottom, 
-	rgba(34, 125, 170, 1) 0%,
-	rgba(81, 172, 205, 1) 100%);
 	height: 680px;
 	width: 100%;
 	overflow: hidden;
